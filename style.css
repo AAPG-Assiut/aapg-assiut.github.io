@@ -159,3 +159,12 @@ body{padding-bottom:4.5rem}
 .egrid figcaption{padding:.6rem .9rem;font-size:.92rem;color:var(--muted)}
 .egrid img{aspect-ratio:4/3;object-position:center 40%}
 @media(min-width:640px){.egrid{grid-template-columns:repeat(2,1fr)}}
+
+.cd{width:100%;text-align:center}
+.cd p{margin:0 0 .5rem!important;color:var(--gold)!important;font-family:Cairo,sans-serif;font-weight:600}
+.cd-row{display:grid;grid-template-columns:repeat(4,1fr);gap:.6rem;max-width:460px;margin:0 auto}
+.cd-row>div{background:rgba(0,0,0,.35);border:1px solid var(--gold);border-radius:.4rem;padding:.5rem .2rem;display:grid;line-height:1.2}
+.cd-row b{font-family:Cairo,sans-serif;font-weight:900;font-size:clamp(1.5rem,6vw,2.1rem);font-variant-numeric:tabular-nums}
+.cd-row small{color:#F0D5DB;font-size:.8rem}
+.ask-btn{position:fixed;inset-inline-end:.75rem;bottom:calc(4.1rem + env(safe-area-inset-bottom,0px));z-index:20;background:var(--brand);color:#fff;border:1px solid var(--gold);font-family:Cairo,sans-serif;font-weight:600;padding:.45rem 1.1rem;border-radius:2rem;text-decoration:none;box-shadow:0 4px 14px rgba(0,0,0,.35)}
+.ask-btn:hover{background:var(--brand-deep)}
