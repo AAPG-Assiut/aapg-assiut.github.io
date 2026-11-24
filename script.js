@@ -21,7 +21,7 @@ else if(navigator.clipboard){navigator.clipboard.writeText(location.href).then(f
 
 (function(){var d=document.getElementById('deadline');if(!d)return;
 var o=new Date(d.dataset.open),c=new Date(d.dataset.close),n=new Date(),t=document.getElementById('dl-text'),w=document.getElementById('win-status');
-if(n<o){var days=Math.ceil((o-n)/864e5);t.textContent='التقديم بيفتح الأربعاء 25 نوفمبر ويقفل الجمعة 27 نوفمبر 2026';}
+if(n<o){t.textContent='التقديم بيفتح الثلاثاء 24 نوفمبر الساعة 7 مساءً ويقفل الجمعة 27 نوفمبر 2026';}
 else if(n<c){var left=Math.ceil((c-n)/864e5);t.textContent=left>1?'التقديم مفتوح دلوقتي · بيقفل الجمعة 27 نوفمبر':'آخر يوم للتقديم النهاردة · الجمعة 27 نوفمبر';
 if(w)w.textContent=left>1?'التقديم مفتوح دلوقتي وبيقفل الجمعة 27 نوفمبر.':'النهاردة آخر يوم للتقديم. قدّم دلوقتي.';}
 else{t.textContent='التقديم اتقفل. تابعنا عشان تعرف الفرص الجاية.';if(w)w.textContent='التقديم اتقفل. تابع صفحاتنا للفرص الجاية.';}})();
