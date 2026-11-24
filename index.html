@@ -7,7 +7,7 @@
 <meta name="theme-color" content="#65051D">
 <meta property="og:type" content="website">
 <meta property="og:title" content="انضم لشابتر AAPG جامعة أسيوط">
-<meta property="og:description" content="اختار لجنتك: Graphic Design, Magazine, HR, PR واملأ فورم التقديم.">
+<meta property="og:description" content="التقديم مفتوح من الأربعاء 25 لحد الجمعة 27 نوفمبر. اختار لجنتك: Media &amp; Design, Magazine, HR, PR واملأ الفورم.">
 <meta property="og:image" content="https://aapg-assiut.github.io/og.png">
 <meta property="og:url" content="https://aapg-assiut.github.io/">
 <meta property="og:image:width" content="1200">
@@ -22,16 +22,18 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<a class="sticky-join" id="sj" href="#committees">انضم الآن</a>
+<a class="sticky-join show" id="sj" href="#committees">قدّم الآن</a>
+<a class="ask-btn" href="https://chat.whatsapp.com/IhP7N1KRUwZ93D8pgFTEHs?s=cl&amp;p=a&amp;iam=2" target="_blank" rel="noopener">عندك سؤال؟</a>
 <div class="depth" id="depth" aria-hidden="true">العمق: <b>٠ م</b></div>
 
 <header class="hero">
   <div class="wrap">
-    <nav class="nav"><a href="#committees">انضم للجان</a><a href="#activities">بنقدم إيه</a><a href="#follow">تابعنا</a></nav>
+    <nav class="nav"><a href="#benefits">ليه تنضم</a><a href="#committees">اللجان</a><a href="#team">الفريق</a><a href="#events">فعالياتنا</a><a href="#faq">أسئلة</a></nav>
     <div class="logo" role="img" aria-label="AAPG Assiut University Student Chapter"></div>
     <h1>شغفك بالبترول ممكن يوصّلك لأبعد مما تتخيل</h1>
     <p>سجّل في اللجنة اللي تناسبك وتعالى نكتشف سوا عالم علوم الأرض والبترول، ونحوّل شغفك بالعلم لخبرة وفرص حقيقية.</p>
-    <a class="btn gold" href="#committees">انضم لينا</a>
+    <p class="deadline" id="deadline" data-open="2026-11-25T00:00:00+02:00" data-close="2026-11-28T00:00:00+02:00"><span class="dot"></span><span id="dl-text">التقديم مفتوح من الأربعاء 25 نوفمبر لحد الجمعة 27 نوفمبر 2026</span></p>
+    <a class="btn gold" href="#committees">قدّم الآن</a>
   </div>
   <svg class="sky" viewBox="0 0 400 220" preserveAspectRatio="xMidYMax meet" aria-hidden="true">
 <defs>
@@ -89,6 +91,36 @@
 </header>
 
 <main>
+  <section id="apply-window" class="window">
+    <div class="wrap">
+      <div class="win-box">
+        <div class="win-title"><h2>فترة التقديم 3 أيام بس</h2><p id="win-status">التقديم بيفتح الأربعاء وبيقفل الجمعة. متفوتش الفرصة.</p></div>
+        <div class="cd" id="cd" role="timer" aria-live="off"><p id="cd-label">التقديم بيقفل بعد</p><div class="cd-row" dir="ltr"><div><b id="cd-d">00</b><small>يوم</small></div><div><b id="cd-h">00</b><small>ساعة</small></div><div><b id="cd-m">00</b><small>دقيقة</small></div><div><b id="cd-s">00</b><small>ثانية</small></div></div></div>
+        <ol class="days">
+          <li><small>الأربعاء</small><b>25</b><span>نوفمبر · بداية التقديم</span></li>
+          <li><small>الخميس</small><b>26</b><span>نوفمبر</span></li>
+          <li class="last"><small>الجمعة</small><b>27</b><span>نوفمبر · آخر يوم</span></li>
+        </ol>
+        <a class="btn gold" href="#committees">اختار لجنتك وقدّم</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="benefits" class="alt">
+    <div class="wrap">
+      <h2>هتستفيد إيه لما تنضم</h2>
+      <p class="lead">عضوية الشابتر مش بس اسم على CV. دي حاجات هتعيشها فعلاً.</p>
+      <div class="ben">
+        <div><i>01</i><h3>ورش تقنية</h3><p>تدريب عملي على أساسيات الجيولوجيا والجيوفيزياء وتفسير البيانات.</p></div>
+        <div><i>02</i><h3>لقاءات مع الصناعة</h3><p>جلسات مع متخصصين من شركات البترول، تسألهم وتتعلم من خبرتهم.</p></div>
+        <div><i>03</i><h3>رحلات ميدانية</h3><p>تشوف الصخور والتراكيب الجيولوجية على الطبيعة بدل الكتب.</p></div>
+        <div><i>04</i><h3>مسابقات</h3><p>تشتغل مع فريق على حالات حقيقية وتتنافس زي مسابقات AAPG للطلاب.</p></div>
+        <div><i>05</i><h3>مهارات بره المنهج</h3><p>تصميم، كتابة، تنظيم، وتواصل. مهارات بتفرق في أي شغل.</p></div>
+        <div><i>06</i><h3>مجتمع وأصحاب</h3><p>فريق بيشاركك نفس الاهتمام وشبكة علاقات جوه الجامعة وبره.</p></div>
+      </div>
+    </div>
+  </section>
+
   <section id="about">
     <div class="wrap">
       <h2>مين إحنا</h2>
@@ -106,16 +138,49 @@
     </div>
   </section>
 
-  <section id="committees" class="alt">
+  <section id="committees">
     <div class="wrap">
-      <h2>انضم للشابتر.. اختار لجنتك</h2>
-      <p class="lead">كل لجنة ليها فورم تقديم خاص بيها. اختار اللي يناسب مهاراتك واملأ الفورم.</p>
+      <h2>اختار لجنتك وقدّم دلوقتي</h2>
+      <p class="lead">كل لجنة ليها فورم تقديم خاص بيها. اختار اللي يناسب مهاراتك واملأ الفورم قبل <strong>الجمعة 27 نوفمبر</strong>.</p>
       <div class="grid">
-        <div class="card"><h3>Graphic Design</h3><b>لجنة التصميم</b><p>تصميم بوسترات وهوية فعاليات الشابتر.</p><a class="btn" href="https://docs.google.com/forms/d/1SorY6VIIpgGx5bQZ1avJT8_KZMMTTvx6xEzFjmugOD8/viewform?hl=ar" target="_blank" rel="noopener">قدّم على اللجنة</a></div>
+        <div class="card"><h3>Media &amp; Design</h3><b>لجنة الميديا والتصميم</b><p>تصميم بوسترات وهوية فعاليات الشابتر، وتغطية الفعاليات ومحتوى السوشيال ميديا.</p><a class="btn" href="https://docs.google.com/forms/d/1SorY6VIIpgGx5bQZ1avJT8_KZMMTTvx6xEzFjmugOD8/viewform?hl=ar" target="_blank" rel="noopener">قدّم على اللجنة</a></div>
         <div class="card"><h3>Magazine</h3><b>لجنة المجلة</b><p>كتابة وتحرير المحتوى العلمي لمجلة الشابتر.</p><a class="btn" href="https://docs.google.com/forms/d/1Q_AMeCeWsEEq-duxQHY5SvICNxHPgP5GwmvcxxgfMvE/viewform?hl=ar" target="_blank" rel="noopener">قدّم على اللجنة</a></div>
         <div class="card"><h3>HR</h3><b>لجنة الموارد البشرية</b><p>استقبال الأعضاء الجدد وتنظيم الفريق والتواصل معاه.</p><a class="btn" href="https://docs.google.com/forms/d/1YGVKh7L46etHlekOLYgswqgxGIFFt1otTudAXg19yCI/viewform?hl=ar" target="_blank" rel="noopener">قدّم على اللجنة</a></div>
         <div class="card"><h3>PR</h3><b>لجنة العلاقات العامة</b><p>التواصل مع الشركات والمتحدثين والرعاة.</p><a class="btn" href="https://docs.google.com/forms/d/1HLjPG3QtrLkWDBjuiReEolUoK_bgyXUMFjV04Joucm0/viewform?hl=ar" target="_blank" rel="noopener">قدّم على اللجنة</a></div>
       </div>
+    </div>
+  </section>
+
+  <section id="team" class="alt">
+    <div class="wrap">
+      <h2>الفريق اللي هتشتغل معاه</h2>
+      <p class="lead">مجلس إدارة الشابتر لموسم 2026/2027. ناس زيك بدأت من التقديم.</p>
+      <div class="tgrid">
+        <figure class="tm"><img src="assets/team/mina-adly.webp" width="640" height="800" loading="lazy" alt="Mina Adly, President"></figure>
+        <figure class="tm"><img src="assets/team/tasneem-ayman.webp" width="640" height="800" loading="lazy" alt="Tasneem Ayman, Vice President"></figure>
+        <figure class="tm"><img src="assets/team/haneen-ahmed.webp" width="640" height="800" loading="lazy" alt="Haneen Ahmed, Secretary"></figure>
+        <figure class="tm"><img src="assets/team/abanoub-naseem.webp" width="640" height="800" loading="lazy" alt="Abanoub Naseem, Treasurer"></figure>
+        <figure class="tm"><img src="assets/team/wisam-talaat.webp" width="640" height="800" loading="lazy" alt="Wisam Talaat, Head PR"></figure>
+        <figure class="tm"><img src="assets/team/josiane-ashraf.webp" width="640" height="800" loading="lazy" alt="Josiane Ashraf, Head OC"></figure>
+        <figure class="tm"><img src="assets/team/mayada-omar.webp" width="640" height="800" loading="lazy" alt="Mayada Omar, Head HR"></figure>
+        <figure class="tm"><img src="assets/team/tasneem-mohamed.webp" width="640" height="800" loading="lazy" alt="Tasneem Mohamed, Head Magazine"></figure>
+        <figure class="tm"><img src="assets/team/habiba-mohamed.webp" width="640" height="800" loading="lazy" alt="Habiba Mohamed, Head Media"></figure>
+        <figure class="tm"><img src="assets/team/ola-hamdy.webp" width="640" height="800" loading="lazy" alt="Ola Hamdy, Vice PR"></figure>
+        <figure class="tm"><img src="assets/team/mostafa-hashem.webp" width="640" height="800" loading="lazy" alt="Mostafa Hashem, Vice OC"></figure>
+        <figure class="tm"><img src="assets/team/ahmed-fathy.webp" width="640" height="800" loading="lazy" alt="Ahmed Fathy, Vice HR"></figure>
+        <figure class="tm"><img src="assets/team/dalia-ammary.webp" width="640" height="800" loading="lazy" alt="Dalia Ammary, Vice Magazine"></figure>
+        <figure class="tm"><img src="assets/team/mario-badry.webp" width="640" height="800" loading="lazy" alt="Mario Badry, Vice Magazine"></figure>
+        <figure class="tm"><img src="assets/team/renad-abdelraheem.webp" width="640" height="800" loading="lazy" alt="Renad Abdelraheem, Vice Media"></figure>
+        <figure class="tm"><img src="assets/team/yasmeen-arafat.webp" width="640" height="800" loading="lazy" alt="Yasmeen Arafat, Vice Media"></figure>
+      </div>
+    </div>
+  </section>
+
+  <section id="events">
+    <div class="wrap">
+      <h2>من فعالياتنا</h2>
+      <p class="lead">لحظات من المؤتمر الدولي الثالث عشر عن جيولوجية أفريقيا في جامعة أسيوط، 4 نوفمبر 2026.</p>
+      <div class="egrid"><figure><img src="assets/events/conference-1.webp" width="1000" height="666" loading="lazy" alt="فريق الشابتر في المؤتمر الدولي الثالث عشر عن جيولوجية أفريقيا، جامعة أسيوط"><figcaption>فريق الشابتر في المؤتمر الدولي الثالث عشر عن جيولوجية أفريقيا، جامعة أسيوط</figcaption></figure><figure><img src="assets/events/conference-2.webp" width="1000" height="666" loading="lazy" alt="أعضاء الشابتر مع ضيوف المؤتمر، 4 نوفمبر 2026"><figcaption>أعضاء الشابتر مع ضيوف المؤتمر، 4 نوفمبر 2026</figcaption></figure><figure><img src="assets/events/conference-3.webp" width="1000" height="750" loading="lazy" alt="فريق التنظيم أمام لافتة المؤتمر"><figcaption>فريق التنظيم أمام لافتة المؤتمر</figcaption></figure><figure><img src="assets/events/badges.webp" width="563" height="1000" loading="lazy" alt="بادجات أعضاء مجلس الشابتر 2026/2027"><figcaption>بادجات أعضاء مجلس الشابتر 2026/2027</figcaption></figure></div>
     </div>
   </section>
 
@@ -130,14 +195,26 @@
     </div>
   </section>
 
-  <section class="alt">
+  <section class="alt" id="how">
     <div class="wrap">
       <h2>إزاي تنضم</h2>
       <ol class="steps">
-        <li><div><strong>اختار لجنة</strong><br>من اللجان اللي فوق.</div></li>
+        <li><div><strong>اختار لجنة</strong><br>من اللجان اللي فوق. التقديم من الأربعاء 25 لحد الجمعة 27 نوفمبر.</div></li>
         <li><div><strong>املأ فورم اللجنة</strong><br>بياناتك ومهاراتك، وبياخد دقيقتين.</div></li>
         <li><div><strong>هنتواصل معاك</strong><br>هنبلغك بالنتيجة وخطوة البداية.</div></li>
       </ol>
+    </div>
+  </section>
+
+  <section id="faq">
+    <div class="wrap">
+      <h2>أسئلة شائعة</h2>
+      <details open><summary>التقديم بيبدأ ويخلص إمتى؟</summary><p>التقديم بيبدأ الأربعاء 25 نوفمبر 2026 وبيخلص الجمعة 27 نوفمبر 2026. يعني 3 أيام بس.</p></details>
+      <details><summary>أقدّم إزاي؟</summary><p>اختار اللجنة اللي تناسبك من قسم اللجان، واملأ الفورم الخاص بيها. بياخد حوالي دقيقتين، وبعد كده هنتواصل معاك.</p></details>
+      <details><summary>أنا في كلية غير الجيولوجيا والبترول، أقدر أقدّم؟</summary><p>الشابتر تابع لطلاب جامعة أسيوط، ولجان زي الميديا والتصميم والمجلة والـ HR والـ PR محتاجة مهارات متنوعة. اختار اللجنة اللي بتحبها وقدّم.</p></details>
+      <details><summary>لازم تكون عندي خبرة قبل كده؟</summary><p>لا. المهم شغفك والتزامك، والباقي هتتعلمه مع الفريق.</p></details>
+      <details><summary>أقدر أقدّم على أكتر من لجنة؟</summary><p>كل لجنة ليها فورم خاص بيها. اختار اللجنة اللي بتناسبك أكتر، وللاستفسار كلمنا على صفحاتنا.</p></details>
+      <details><summary>إزاي أعرف النتيجة؟</summary><p>هنتواصل مع المقبولين. تابع قناة الواتساب وصفحة الفيسبوك للأخبار والإعلانات.</p></details>
     </div>
   </section>
 
